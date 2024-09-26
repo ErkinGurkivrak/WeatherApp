@@ -7,7 +7,7 @@ import Search from "./components/Search";
 import axios from "axios";
 
 // Configurations
-const siteTitle = process.env.REACT_APP_SITE_TITLE ?? "BAKI Weather";
+const siteTitle = process.env.REACT_APP_SITE_TITLE ?? "ERKIN Weather";
 
 function App() {
   const [currentWeather, setCurrentWeather] = useState(null);

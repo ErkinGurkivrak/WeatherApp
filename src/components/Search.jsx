@@ -20,7 +20,7 @@ function Search({ onSearch }) {
 
   return (
     <Grid sx={{ display: 'flex', justifyContent: 'space-between', padding: '20px', backgroundColor: " rgb(72, 168, 247)" }}>
-      <h2 style={{ color: "white", backgroundColor: "rgb(72, 168, 247)" }}>BMT WEATHER</h2>
+      <h2 style={{ color: "white", backgroundColor: "rgb(72, 168, 247)" }}>ERKIN WEATHER</h2>
       <Grid sx={{ display: 'flex', justifyContent: 'space-between' }}>
         <Textarea
           type="text"
