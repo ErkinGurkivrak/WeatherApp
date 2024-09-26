@@ -1,0 +1,63 @@
+@use "theme/utilities.scss";
+@use "theme/global.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html,
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(72, 168, 247)
+}
+
+
+
+.c-site-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.current-weather-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h4 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.future-weather-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.App {
+    background-image: url(./img/instructions/512.jpg);
+}
